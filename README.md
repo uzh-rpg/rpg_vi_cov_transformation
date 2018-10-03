@@ -39,9 +39,9 @@ While the estimated covariance from the gauge fixation method shows that the unc
 Such transformations can be useful, for example, when the optimiztion process is used as a black box, and the covariance of a certain fixation is desired. We publicly release the code to the community to benefit related research. 
 
 
-**Covariance matrices of different methods (yellow areas denote fixed parameters)**
+**Covariance matrices of different methods**
 
-The following figure shows how the covariance matrix (in position p, orientation and velocity v of the camera) from the free gauge method is transformed to a desired gauge, that is, to a desired reference frame. 
+The following figure shows how the covariance matrix (in position p, orientation and velocity v of the camera) from the free gauge method is transformed to a desired gauge, that is, to a desired reference frame. The yellow areas denote fixed parameters.
 
 ![Position covariance](img/cov_mat.png)
 
