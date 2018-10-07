@@ -1,6 +1,6 @@
 # Covariance Transformation for Visual-Inertial Systems
 
-This folder contains the implementation of the covariance transformation method in the following publication:
+This repository contains the implementation of the covariance transformation method in the following publication:
 
 Zichao Zhang, Guillermo Gallego and Davide Scaramuzza, "*On the Comparison of Gauge Freedom Handling in Optimization-Based Visual-Inertial State Estimation*," in IEEE Robotics and Automation Letters, vol. 3, no. 3, pp. 2710-2717, July 2018.
 
@@ -15,8 +15,6 @@ If the code is used, please cite:
   month={July}
   }
 ```
-
-See http://rpg.ifi.uzh.ch/vi_cov_trans.html for a brief introduction of the covariance transformation.
 
 ## Handling unobservable degrees of freedom
 
@@ -36,12 +34,12 @@ While these three methods do not have significant differences in terms of accura
 
 While the estimated covariance from the gauge fixation method shows that the uncertainty grows over time (time increases from bottom to top), the uncertainties from the free gauge approach cannot be interpreted intuitively. This is due to the fact that no reference is chosen for the free gauge approach, and therefore the uncertainty is not associated with any reference frame. However, we show that by observing the gauge constraint, we can *transform the estimated covariance from the free gauge method to any desired gauge fixation*. The result is shown in the middle plot, where we can see that the transformed free gauge uncertainties agree very well with the ones from the gauge fixation case.
 
-Such transformations can be useful, for example, when the optimiztion process is used as a black box, and the covariance of a certain fixation is desired. We publicly release the code to the community to benefit related research. 
+Such transformations can be useful, for example, when the optimization process is used as a black box, and the covariance of a certain fixation is desired. We publicly release the code to the community to benefit related research. 
 
 
 **Covariance matrices of different methods**
 
-The following figure shows how the covariance matrix (in position p, orientation and velocity v of the camera) from the free gauge method is transformed to a desired gauge, that is, to a desired reference frame. The yellow areas denote fixed parameters.
+The following figure shows how the covariance matrix (in position `p`, orientation `phi` and velocity `v` of the camera) from the free gauge method is transformed to a desired gauge, that is, to a desired reference frame. The yellow areas denote fixed parameters.
 
 ![Position covariance](img/cov_mat.png)
 
