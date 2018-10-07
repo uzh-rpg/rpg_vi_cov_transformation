@@ -48,7 +48,7 @@ The following figure shows how the covariance matrix (in position `p`, orientati
 First download the data
 
 ```shell
-cd data && ./dowload.sh
+cd data && ./download.sh
 cd ..
 ```
 
