@@ -45,7 +45,14 @@ The following figure shows how the covariance matrix (in position `p`, orientati
 
 
 ## Instructions to Run the Code
-Simply run
+First download the data
+
+```shell
+cd data && ./dowload.sh
+cd ..
+```
+
+Then simply run
 
 ```python
 python2 compare_cov_free_fixed.py
