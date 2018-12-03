@@ -7,7 +7,7 @@ Zichao Zhang, Guillermo Gallego and Davide Scaramuzza, "*On the Comparison of Ga
 If the code is used, please cite:
 
 ```latex
-@inproceedings{Zhang18ral,
+@Article{Zhang18ral,
   author={Zichao Zhang and Guillermo Gallego and Davide Scaramuzza},
   journal={IEEE Robotics and Automation Letters},
   title={On the Comparison of Gauge Freedom Handling in Optimization-Based Visual-Inertial State Estimation},
